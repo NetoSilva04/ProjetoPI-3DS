@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:projetopi/escrever_redacao_screen.dart';
-import 'package:projetopi/temas/redacaotemaMulher.dart';
+import 'package:projetopi/temas/redacaotema_mulher.dart';
 import '/materiais/texto_motivador_widget.dart';
 
-class RedacaoTemaViolenciaPage extends StatelessWidget {
-  const RedacaoTemaViolenciaPage({super.key});
+class RedacaoTemaMundoForaOrdemPage extends StatelessWidget {
+  const RedacaoTemaMundoForaOrdemPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,24 +12,24 @@ class RedacaoTemaViolenciaPage extends StatelessWidget {
       TextoMotivador(
         titulo: 'Texto 01',
         conteudo:
-            'A violência contra a mulher no Brasil é um fenômeno multifacetado e persistente, com raízes profundas nas desigualdades de gênero, na cultura machista e na falta de políticas públicas eficazes. O feminicídio, em particular, tem se tornado uma das formas mais extremas dessa violência, onde as mulheres se tornam vítimas de assassinatos motivados por questões de gênero.',
+            'A frase “O mundo contemporâneo está fora da ordem” sugere um cenário de crise global. Desigualdades sociais crescentes, conflitos armados, mudanças climáticas e a instabilidade política em diversas regiões são alguns dos fatores que evidenciam a sensação de desordem e insegurança na atualidade.',
       ),
       TextoMotivador(
         titulo: 'Texto 02',
         conteudo:
-            'Em diversos estados do Brasil, as mulheres ainda enfrentam uma realidade alarmante de abuso físico, psicológico e sexual. Além disso, a impunidade e a subnotificação desses casos contribuem para a perpetuação da violência. A construção de uma sociedade mais justa exige a erradicação dessa violência e a implementação de medidas de prevenção e conscientização.',
+            'Segundo o filósofo polonês Zygmunt Bauman, vivemos em uma modernidade líquida, onde os laços sociais são frágeis e as instituições perdem sua capacidade de oferecer estabilidade. Isso contribui para o sentimento de caos e a perda de referências no mundo contemporâneo.',
       ),
       TextoMotivador(
         titulo: 'Texto 03',
         conteudo:
-            'Apesar dos avanços em algumas áreas, como a Lei Maria da Penha, a violência contra a mulher continua a ser um grande desafio. As mulheres precisam de mais apoio de políticas públicas que garantam proteção, acesso à justiça e educação para a prevenção desse problema social.',
+            'Os avanços tecnológicos e a globalização trouxeram benefícios, mas também ampliaram desigualdades e desafios éticos. A disseminação de informações falsas, o individualismo exacerbado e a crise de valores afetam o convívio coletivo e agravam a sensação de desordem social.',
       ),
     ];
 
     return Scaffold(
       backgroundColor: const Color(0xFFF7F8F9),
       appBar: AppBar(
-        title: const Text('A persistência da violência contra a mulher na sociedade brasileira'),
+        title: const Text('O mundo contemporâneo está fora da ordem'),
         backgroundColor: const Color(0xFFB19CD9),
       ),
       body: SingleChildScrollView(
@@ -42,7 +42,7 @@ class RedacaoTemaViolenciaPage extends StatelessWidget {
               color: Colors.deepPurple.shade50,
               padding: const EdgeInsets.all(12),
               child: const Text(
-                'Tema: A persistência da violência contra a mulher na sociedade brasileira',
+                'Tema: O mundo contemporâneo está fora da ordem',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
@@ -52,7 +52,7 @@ class RedacaoTemaViolenciaPage extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             const Text(
-              'A redação deve ser dissertativo-argumentativa e abordar as questões sociais, culturais e históricas que envolvem a violência contra a mulher na sociedade brasileira, considerando seus impactos e as possíveis formas de enfrentamento.',
+              'A redação deve refletir criticamente sobre os elementos que tornam o mundo atual caótico ou desorganizado. É necessário analisar as causas dessa desordem e discutir possíveis caminhos para restaurar o equilíbrio social, ambiental e ético em escala local e global.',
               style: TextStyle(fontSize: 16, color: Colors.black87),
               textAlign: TextAlign.justify,
             ),
@@ -96,7 +96,7 @@ class RedacaoTemaViolenciaPage extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (context) => EscreverRedacaoPage(
-                        tema: "A persistência da violência contra a mulher na sociedade brasileira",
+                        tema: 'O mundo contemporâneo está fora da ordem',
                         textosMotivadores: textosMotivadores,
                       ),
                     ),

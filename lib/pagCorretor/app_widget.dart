@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projetopi/pagCorretor/home_page.dart';
+import 'package:projetopi/pagcorretor/home_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});

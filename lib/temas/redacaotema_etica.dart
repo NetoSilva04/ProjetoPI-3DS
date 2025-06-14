@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projetopi/escrever_redacao_screen.dart';
-import 'package:projetopi/temas/redacaotemaMulher.dart';
+import 'package:projetopi/temas/redacaotema_mulher.dart';
 import '/materiais/texto_motivador_widget.dart';
 
 class RedacaoTemaEticaPage extends StatelessWidget {
